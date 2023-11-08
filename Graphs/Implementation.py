@@ -16,6 +16,18 @@ class Graph:
     def containsEdge(self, v1, v2):
         return self.adjMatrix[v1][v2] == 1
     
+    def __dfsHelper(self, sv, visited):
+        print(sv)
+        visited[sv] = True
+
+        for i in range(self.nVertices):
+            if self.adjMatrix[sv][i] == 1 and visited[i] is False:
+                self.__dfsHelper(i, visited)
+
+    def dfs(self):
+        visited = [False for i in range(self.nVertices)]
+        self.__dfsHelper(0, visited)
+    
     def __str__(self):
         return str(self.adjMatrix)
     
@@ -27,3 +39,5 @@ print(graph1)
 print(graph1.containsEdge(1,0))
 graph1.removeEdge(2,3)
 print(graph1)
+graph1.addEdge(2,1)
+graph1.dfs()
