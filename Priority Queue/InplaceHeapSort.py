@@ -38,3 +38,6 @@ arr = [int(ele) for ele in input().split()]
 heapSort(arr)
 for ele in arr:
     print(ele,end=' ')
+
+
+
