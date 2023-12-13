@@ -1,4 +1,3 @@
-# Write your code here
 from queue import Queue
 
 class Graph():
@@ -54,7 +53,6 @@ if n > 0:
     else:
         for i in range(n):
             print(i, end = " ")
-
 
 
 
