@@ -53,4 +53,3 @@ if n > 0:
     else:
         for i in range(n):
             print(i, end = " ")
-
