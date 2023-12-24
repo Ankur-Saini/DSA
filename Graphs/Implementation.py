@@ -38,6 +38,9 @@ graph1.addEdge(4,4)
 print(graph1)
 print(graph1.containsEdge(1,0))
 graph1.removeEdge(2,3)
+
+
+
 print(graph1)
 graph1.addEdge(2,1)
 graph1.dfs()
