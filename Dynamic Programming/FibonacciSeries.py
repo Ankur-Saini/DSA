@@ -24,3 +24,6 @@ memo = [-1] * (n+1)
 dp = [-1] * (n+1)
 print(str(n) + "th fibonacci number is: " + str(fibo(n)))
 print(str(n) + "th fibonacci number is: " + str(fibo(n)))
+
+
+
