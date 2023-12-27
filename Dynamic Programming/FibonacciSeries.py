@@ -26,4 +26,3 @@ print(str(n) + "th fibonacci number is: " + str(fibo(n)))
 print(str(n) + "th fibonacci number is: " + str(fibo(n)))
 
 
-
