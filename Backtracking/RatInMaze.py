@@ -55,5 +55,3 @@ def searchMaze(arr, n):
 
     
 
-
-
