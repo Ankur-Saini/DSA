@@ -52,4 +52,3 @@ def searchMaze(arr, n):
     return ans
 
 
-
