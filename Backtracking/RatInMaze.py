@@ -51,3 +51,6 @@ def searchMaze(arr, n):
     explore(0, 0, arr, visited, n, "")
     return ans
     
+
+
+
