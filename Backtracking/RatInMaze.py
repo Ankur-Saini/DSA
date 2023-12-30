@@ -50,5 +50,3 @@ def searchMaze(arr, n):
     visited[0][0] = True
     explore(0, 0, arr, visited, n, "")
     return ans
-
-
