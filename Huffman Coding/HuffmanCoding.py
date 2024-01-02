@@ -160,3 +160,6 @@ path = "/Users/ankursaini/Desktop/text.txt"
 h = HuffmanCoding(path)
 outputPath = h.compress()
 h.decompress(outputPath)
+
+
+
