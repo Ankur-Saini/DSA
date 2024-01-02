@@ -161,4 +161,3 @@ h = HuffmanCoding(path)
 outputPath = h.compress()
 h.decompress(outputPath)
 
-
