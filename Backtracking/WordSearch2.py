@@ -51,4 +51,3 @@ def present(board: List[List[str]], word: str, n: int, m: int) -> bool:
     # Word not found on the board.
     return False
 
-
