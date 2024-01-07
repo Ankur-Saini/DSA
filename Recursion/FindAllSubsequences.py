@@ -15,4 +15,3 @@ for ele in ans:
     print(ele)
 
 
-
