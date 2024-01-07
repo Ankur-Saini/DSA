@@ -13,3 +13,6 @@ string = input()
 ans = subsequences(string)
 for ele in ans:
     print(ele)
+
+
+
