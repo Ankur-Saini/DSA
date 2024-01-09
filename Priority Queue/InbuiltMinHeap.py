@@ -1,4 +1,3 @@
-
 import heapq
 li=[1,5,4,8,7,9,11]
 heapq.heapify(li)
