@@ -1,5 +1,6 @@
 
 
+
 class Edge():
     def __init__(self, src, dest, wt):
         self.src = src
