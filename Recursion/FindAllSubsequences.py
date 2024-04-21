@@ -1,6 +1,5 @@
 
 
-
 def subsequences(string):
     if string == "":
         return [""]
