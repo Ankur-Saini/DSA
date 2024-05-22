@@ -1,4 +1,3 @@
-
 from typing import List
 
 def isValid(row, col, board, visited, k, word, n, m):
