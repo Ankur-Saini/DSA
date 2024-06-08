@@ -1,4 +1,3 @@
-
 def printMin(l, min_so_far = 2 ** 16):
     if len(l) == 0:
         print(min_so_far)
