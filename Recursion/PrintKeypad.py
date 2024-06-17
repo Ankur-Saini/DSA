@@ -1,4 +1,3 @@
-
 def printKeypad(n, output = ""):
     if n == 0:
         print(output)
